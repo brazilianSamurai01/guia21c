@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#navbar {
+    width: 100%;
+    background-color: #774360;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+#logo {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    float: left;
+    top: 1vh
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 10vh;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    left: 25px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 1vh;
+    font-size: 5vh;
+    margin: 0vh;
+    padding: 0vh;
+}
+
+.contenido {
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 5vh;
+    height: 60vh;
+}
+
+.pelicula {
+    width: 40vh;
+    margin-left: 4vh;
+    float: left;
+}
+
+#sinopsis {
+    margin-right: 30vh;
+    text-align: justify;
+    margin-left: 50vh;
+    font-family: 'Exo', sans-serif;
+}
